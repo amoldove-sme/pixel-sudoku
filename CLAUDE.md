@@ -83,3 +83,12 @@ cd apps/web && npx vitest run src/game/__tests__/validation.test.ts
 - `/` — Mode select (Classic, Killer, Pixel)
 - `/:mode` — Difficulty select
 - `/:mode/:id` — Gameplay
+
+## GitHub
+
+- **Repo:** https://github.com/amoldove-sme/pixel-sudoku
+- **Branch:** `main`
+
+## Screenshots
+
+Local screenshots are saved to `screenshots/` (gitignored). Used for visual QA only.
