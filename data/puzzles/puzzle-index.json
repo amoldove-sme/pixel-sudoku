@@ -1,0 +1,11 @@
+[
+  { "id": "classic-001", "mode": "classic", "difficulty": "easy",   "filename": "classic-001.json" },
+  { "id": "classic-002", "mode": "classic", "difficulty": "medium", "filename": "classic-002.json" },
+  { "id": "classic-003", "mode": "classic", "difficulty": "hard",   "filename": "classic-003.json" },
+  { "id": "killer-001",  "mode": "killer",  "difficulty": "easy",   "filename": "killer-001.json" },
+  { "id": "killer-002",  "mode": "killer",  "difficulty": "medium", "filename": "killer-002.json" },
+  { "id": "killer-003",  "mode": "killer",  "difficulty": "hard",   "filename": "killer-003.json" },
+  { "id": "pixel-001",   "mode": "pixel",   "difficulty": "easy",   "filename": "pixel-001.json" },
+  { "id": "pixel-002",   "mode": "pixel",   "difficulty": "medium", "filename": "pixel-002.json" },
+  { "id": "pixel-003",   "mode": "pixel",   "difficulty": "hard",   "filename": "pixel-003.json" }
+]

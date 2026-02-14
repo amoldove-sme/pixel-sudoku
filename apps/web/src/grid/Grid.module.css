@@ -1,0 +1,40 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  border: 3px solid var(--grid-border-thick);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  max-width: 450px;
+  width: 100%;
+  aspect-ratio: 1;
+  margin: 0 auto;
+}
+
+/* Thick borders for 3x3 box boundaries */
+.grid > :nth-child(n) {
+  border: 1px solid var(--color-border);
+}
+
+/* Right border of columns 3 and 6 */
+.grid > :nth-child(9n + 3),
+.grid > :nth-child(9n + 6) {
+  border-right: 2px solid var(--grid-border-thick);
+}
+
+/* Left border of columns 4 and 7 */
+.grid > :nth-child(9n + 4),
+.grid > :nth-child(9n + 7) {
+  border-left: 2px solid var(--grid-border-thick);
+}
+
+/* Bottom border of rows 3 and 6 (children 19-27 and 46-54) */
+.row3Border,
+.row6Border {
+  border-bottom: 2px solid var(--grid-border-thick) !important;
+}
+
+.row4Border,
+.row7Border {
+  border-top: 2px solid var(--grid-border-thick) !important;
+}

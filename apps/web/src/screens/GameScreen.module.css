@@ -1,0 +1,33 @@
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-lg);
+}
+
+.loading {
+  color: var(--color-text-dim);
+  margin-top: var(--space-2xl);
+}
+
+.winBanner {
+  margin-top: var(--space-lg);
+  padding: var(--space-md) var(--space-xl);
+  background: var(--color-surface);
+  border: 2px solid var(--color-success);
+  border-radius: var(--radius-md);
+  color: var(--color-success);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 230, 118, 0.3);
+}

@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md) var(--space-lg);
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.card:hover {
+  border-color: var(--color-accent);
+  background: var(--color-surface-hover);
+  box-shadow: 0 0 16px var(--color-accent-glow);
+}
+
+.difficulty {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.arrow {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-dim);
+}
